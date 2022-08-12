@@ -1,0 +1,33 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>Welcome to Pierre Sweet and Savort Treats!</h1>
+<div>
+  <div>
+  <h3>Flavors</h3>
+  @if(@ViewBag.FlavorList.Count ==0)
+  {
+    <h4>We have not hire any flavors</h4>
+  }
+  @foreach(Flavor flavor in @ViewBag.FlavorList)
+  {
+    <li>@flavor.Name</li>
+  }
+  </div>
+
+  <div>
+  <h3>Treats</h3>
+  @if(@ViewBag.TreatList.Count ==0)
+  {
+    <h4>We have not add any treat</h4>
+  }
+  @foreach(Treat treat in @ViewBag.TreatList)
+  {
+    <li>@treat.Name</li>
+  }
+  </div>
+<h2>Login or register</h2>
+<p>Login or register to be able to edit list</p>
+<p>@Html.ActionLink("Create an account", "Index", "Account")</p>
+<p>@Html.ActionLink("Login", "Login", "Account")</p>    
