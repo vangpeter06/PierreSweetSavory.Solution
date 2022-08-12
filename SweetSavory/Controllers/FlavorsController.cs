@@ -113,7 +113,7 @@ namespace SweetSavory.Controllers
       return RedirectToAction("Index");
     }
 
-        [HttpPost]
+    [HttpPost]
     public ActionResult DeleteTreat(int joinId)
     {
       var joinEntry = _db.FlavorTreat.FirstOrDefault(entry => entry.FlavorTreatId == joinId);

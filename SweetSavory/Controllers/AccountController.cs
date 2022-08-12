@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using SweetSavory.Models;
 using SweetSavory.ViewModels;
 
@@ -27,6 +28,8 @@ namespace SweetSavory.Controllers
 
         public ActionResult Index()
         {
+            ViewBag.TreatList = new List<Treat>(_db.Treats);
+            ViewBag.FlavorList = new List<Flavor>(_db.Flavors);
             return View();
         }
 
