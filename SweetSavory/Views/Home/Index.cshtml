@@ -2,13 +2,18 @@
   Layout = "_Layout";
 }
 
-<h1>Welcome to Pierre Sweet and Savort Treats!</h1>
+@using SweetSavory.Models
+
+<h1>Welcome to Pierre Sweet and Savory Treats!</h1>
+
+<h2>List of Pierre Sweet and Treat</h2>
+
 <div>
   <div>
   <h3>Flavors</h3>
   @if(@ViewBag.FlavorList.Count ==0)
   {
-    <h4>We have not hire any flavors</h4>
+    <h4>We have not add any flavors</h4>
   }
   @foreach(Flavor flavor in @ViewBag.FlavorList)
   {
@@ -28,6 +33,6 @@
   }
   </div>
 <h2>Login or register</h2>
-<p>Login or register to be able to edit list</p>
+<p>Login to be able to edit lists</p>
 <p>@Html.ActionLink("Create an account", "Index", "Account")</p>
 <p>@Html.ActionLink("Login", "Login", "Account")</p>    
