@@ -23,7 +23,7 @@ _This is a C# MVC application built to allow user authentication. Lets Pierre ke
 ## Setup/Installation Requirements
 
 * _Open your terminal_
-* _Clone this project with the following commands $ git clone https://github.com/vangpeter06/PierreSweetSavory.Solution
+* _Clone this project with the following commands $ git clone https://github.com/vangpeter06/PierreSweetSavory.Solution_
 * _Navigate to the directory in terminal $ cd Factory.Solution_
 * _Open project in the command $ code ._
 * _Navigate to the sub-directory of the project $ cd Factory_
