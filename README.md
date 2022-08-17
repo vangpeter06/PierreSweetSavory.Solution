@@ -20,7 +20,7 @@
 
 _This is a C# MVC application built to allow user authentication. Lets Pierre keep track of treats and flavors. Pierre can also create, delete, edit, and update from the website._
 
-## Setup/Installation Requirements
+## Setup/Installation Requirement
 
 * _Open your terminal_
 * _Clone this project with the following commands $ git clone https://github.com/vangpeter06/PierreSweetSavory.Solution_
