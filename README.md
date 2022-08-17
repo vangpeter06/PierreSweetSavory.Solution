@@ -24,15 +24,15 @@ _This is a C# MVC application built to allow user authentication. Lets Pierre ke
 
 * _Open your terminal_
 * _Clone this project with the following commands $ git clone https://github.com/vangpeter06/PierreSweetSavory.Solution_
-* _Navigate to the directory in terminal $ cd Factory.Solution_
+* _Navigate to the directory in terminal $ cd PierreSweetSavory.Solution_
 * _Open project in the command $ code ._
-* _Navigate to the sub-directory of the project $ cd Factory_
-* _Add appsettings.json file to the Factory directory in terminal $ touch appsettings.json_
+* _Navigate to the sub-directory of the project $ cd SweetSavory_
+* _Add appsettings.json file to the SweetSavory directory in terminal $ touch appsettings.json_
 * _Insert the following codes 
   {
    "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Port=3306;database=sweet_savory;uid=[YOUR-USERID-HERE];pwd=[YOUR-PASSWORD-HERE]_
-* _Navigate to HairSalon directory_
+* _Navigate to SweetSavory directory_
 * _Restore and install packages listed in the csproj in the command $ dotnet restore_
 * _Build your dependencies in your command $ dotnet build_
 * _If you do not have MySQL workbench do so at https://dev.mysql.com/downloads/file/?id=484391_
